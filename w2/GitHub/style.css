@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: #24292e;
+	height: 72px;
+	border-bottom: 1px solid #202429;
+}
+
+.side-buttons form {
+	margin-left: 320px;
+}
+
+.side-buttons input {
+	padding-left: 12px;
+	height: 38px;
+	width: 240px;
+	background-color: rgb(63, 68, 72);
+	border-radius: 3px;
+	border: 0px
+}
+
+.github-logo {
+	margin-top: 11px;	
+}
+
+.banner {
+	display: flex;
+}
+
+.side-buttons {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.side-buttons a {
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 17px;
+	line-height: 21px;
+	margin-top: 2px;
+	margin-left: 15px;
+}
+
+#sign-up {
+	border: 1px solid rgb(209, 213, 218);
+}
+
+.main-area {
+	padding-top: 64px;
+	padding-right: 40px;
+	padding-left: 40px;
+	height: 650px;
+	background-image: url(https://github.com/images/modules/site/heroes/simple-codelines.svg);
+	background-color: #2b3137;
+}
+
+nav {
+	padding-left: 24px;
+	padding-top: 7px;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	color: rgb(255, 255, 255);
+}
+
+li {
+	margin-right: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+::placeholder {
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(140, 143, 146);
+}
+
+.left-side {
+	padding-top: 100px;
+	padding-left: 105px;
+	float: left;
+	width: 553px;
+}
+
+.left-side h1 {
+	margin-bottom: 16px;
+	font-size: 64px;
+	font-weight: 500;
+	line-height: 1;
+	color: #fff;
+}
+
+.left-side p {
+	color: rgb(170, 173, 175);
+	margin-bottom: 24px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.left-side a {
+	color: rgb(255, 255, 255);
+	border-bottom: 1px solid rgb(70, 75, 80);
+	text-decoration: none;
+}
+
+.left-side a:hover {
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.right-side {
+	float: right;
+	width: 392px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-right: 160px;
+}
+
+.rounded-block {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 22px;
+	padding-right: 22px;
+	background-color: #fafbfc;
+	width: 426px;
+	height: 500px;
+	border-radius: 3px;
+}
+
+.registration-form label {
+	color: rgb(36, 41, 46);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.registration-form input {
+	border: 1px solid rgb(209, 213, 218);
+	margin-top: 7px;
+	margin-bottom: 13px;
+	border-radius: 5px;
+	width: 380px;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgb(250, 251, 252);
+	box-shadow: rgba(27, 31, 35, 0.075) 0px 1px 2px 0px inset;
+}
+
+#password-input {
+	margin-bottom: 7px;
+}
+
+.password-disclaimer {
+	font-size: 12px;
+	color: rgb(36, 41, 46);
+}
+
+.registration-form a {
+	color: rgb(3, 102, 214);
+	text-decoration: none;
+}
+
+.registration-form a:hover {
+	text-decoration: underline;
+}
+
+.registration-form button {
+	margin-top: 35px;
+	background-color: rgb(46, 188, 79);
+	border: 0px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 500;
+	width: 380px;
+	text-align: center;
+	border-radius: 3px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 35px;
+}
+
+.disclaimer {
+	font-size: 12px;
+	color: rgb(106, 115, 125);
+}
