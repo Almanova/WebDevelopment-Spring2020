@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-color: rgb(250, 250, 250);
+	height: 900px;
+}
+
+main {
+	height: 840px;
+}
+
+.main-area {
+	margin-top: 42px;
+	padding-left: 210px;
+	padding-right: 239px;
+}
+
+.left-side {
+	background-image: url(https://www.instagram.com/static/images/homepage/home-phones@2x.png/9364675fb26a.png);
+	background-size: 454px 618px;
+	background-repeat: no-repeat;
+	height: 618px;
+	width: 454px;
+	float: left;
+	margin-top: 62px;
+}
+
+.slideshow {
+	position: absolute;
+	margin: 99px 0 0 151px;
+	margin-top: 99px;
+}
+
+.slides {
+	width: 100%;
+	height: 427px;
+	width: auto;
+}
+
+.right-side {
+	float: right;
+}
+
+.white-block, .smaller-block {
+	width: 350px;
+	height: 563px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #e6e6e6;
+	border-radius: 1px;
+}
+
+.white-block img {
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.white-block h2 {
+	text-align: center;
+	line-height: 20px;
+	font-weight: 600;
+	font-size: 17px;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+.facebook-login span {
+	background-image: url(https://instagram.com/static/bundles/es6/sprite_core_2x_14e9320cf58d.png/14e9320cf58d.png);
+	width: 16px;
+	height: 16px;
+	background-size: 410px 396px;
+	background-position: -290px -256px;
+	display: inline-block;
+	margin-right: 8px;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.facebook-login, .sign-up-btn {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-color: #3897f0;
+	color: #fff;
+	padding: 5px 9px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	width: 268px; 
+}
+
+.white-block form {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.divider {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.horizontal-line {
+	width: 107px;
+	height: 1px;
+	background-color: rgb(219, 219, 219);
+	position: relative;
+	top: 7px;
+}
+
+.or-text {
+	vertical-align: baseline;
+	color: rgb(153, 153, 153);
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 15px;
+	margin-right: 18px;
+	margin-left: 18px;
+}
+
+.white-block input {
+	margin-bottom: 6px;
+	width: 268px;
+	background-color: rgb(250, 250, 250);
+	border-radius: 3px;
+	border: 1px solid rgb(239, 239, 239);
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-left: 8px;
+}
+
+::placeholder {
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+}
+
+.sign-up-btn {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.white-block p {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(153, 153, 153);
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.white-block a {
+	text-decoration: none;
+	font-weight: 600;
+	color: rgb(153, 153, 153);
+}
+
+.smaller-block {
+	margin-top: 10px;
+	height: 70px;
+}
+
+.smaller-block p {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 24px;
+	color: rgb(29, 33, 41);
+}
+
+.smaller-block a {
+	text-decoration: none;
+	color: #3897f0;
+}
+
+.lower-buttons {
+	margin-top: 20px;
+	width: 350px;
+}
+
+.lower-buttons p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.play-store {
+	margin-left: 35px;
+	margin-top: 20px;
+	display: flex;
+}
+
+.play-store img {
+	height: 40px;
+	width: auto;
+	margin-right: 10px;
+}
+
+.lower-navigation {
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+footer {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin-right: 16px;
+	margin-bottom: 7px;
+	font-weight: 600;
+	line-height: 18px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: rgb(0, 53, 105);
+}
+
+.lower-navigation span {
+	margin-top: 4px;
+	text-transform: uppercase;
+	margin-left: 120px;
+	font-weight: 600;
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+}
