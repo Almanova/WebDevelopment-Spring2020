@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: rgb(23, 23, 23);
+}
+
+header h2 {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 13px;
+    color: bisque;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+main {
+    width: 710px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+}
+
+.adding-task {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+.adding-task input, button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 186, 186);
+}
+
+.adding-task input {
+    width: 500px;
+    margin-right: 20px;
+    box-shadow: rgba(27, 31, 35, 0.075) 1px 2px 2px 1px inset;
+} 
+
+::placeholder {
+    color: rgb(135, 135, 135);
+}
+
+.adding-task button {
+    color: bisque;
+    background-color: rgb(100, 87, 107);
+}
+
+.adding-task button:hover {
+    cursor: pointer;
+    background-color: rgb(52, 45, 56);
+}
+
+.to-do-items {
+    padding-top: 30px;
+}
+
+ul {
+    list-style: none;
+    border-top: 1px solid rgb(186, 186, 186);
+    border-left: 1px solid rgb(186, 186, 186);
+    border-right: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+}
+
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+li img {
+    float: right;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+li img:hover, input[type="checkbox"] {
+    cursor: pointer;
+}
