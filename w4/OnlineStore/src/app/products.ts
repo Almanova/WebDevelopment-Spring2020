@@ -5,7 +5,8 @@ export const products = [
     rating: 4.9,
     description: 'PanTong 2019 model Apple MacBook Air 13 inch 128G silver/space gray/gold Apple Authorized Online Seller',
     link: 'https://www.aliexpress.com/item/4000014299035.html?spm=a2g0o.productlist.0.0.1a2919057cpflI&algo_pvid=422ff851-f3f4-4ca2-b282-69f9992d305b&algo_expid=422ff851-f3f4-4ca2-b282-69f9992d305b-0&btsid=8f54ce30-dfde-46f6-ad24-652605ed2763&ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53',
-    image: 'https://ae01.alicdn.com/kf/HTB1YOISaEz1gK0jSZLeq6z9kVXao/PanTong-2019-model-Apple-MacBook-Air-13-inch-128G-silver-space-gray-gold-Apple-Authorized-Online.jpg'
+    image: ['https://ae01.alicdn.com/kf/HTB1YOISaEz1gK0jSZLeq6z9kVXao/PanTong-2019-model-Apple-MacBook-Air-13-inch-128G-silver-space-gray-gold-Apple-Authorized-Online.jpg', 'https://ae01.alicdn.com/kf/HTB1_.MPapY7gK0jSZKzq6yikpXaO/PanTong-2019-model-Apple-MacBook-Air-13-inch-128G-silver-space-gray-gold-Apple-Authorized-Online.jpg', 'https://ae01.alicdn.com/kf/HTB1YcISavb2gK0jSZK9q6yEgFXaw/PanTong-2019-model-Apple-MacBook-Air-13-inch-128G-silver-space-gray-gold-Apple-Authorized-Online.jpg'],
+    main: 'https://ae01.alicdn.com/kf/HTB1YOISaEz1gK0jSZLeq6z9kVXao/PanTong-2019-model-Apple-MacBook-Air-13-inch-128G-silver-space-gray-gold-Apple-Authorized-Online.jpg'
   },
   {
     name: 'Xiaomi Mi Air Pro',
@@ -13,7 +14,8 @@ export const products = [
     rating: 4.8,
     description: 'Xiaomi Mi Laptop Air Pro 15.6 Inch GTX 1050 Max-Q Notebook Intel Core i7 8550U CPU NVIDIA 16GB 256GB Fingerprint Windows 10',
     link: 'https://www.aliexpress.com/item/32962218679.html?spm=a2g0o.productlist.0.0.1a2919057cpflI&algo_pvid=48fe075a-2ac9-434e-bf5f-dc354987550d&algo_expid=48fe075a-2ac9-434e-bf5f-dc354987550d-0&btsid=a68d45fb-cffe-4d4f-9b86-12cbdbd4b312&ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53',
-    image: 'https://ae01.alicdn.com/kf/Heec6739d2dd647b1bf3c40cd853bc50bv/Xiaomi-Mi-Laptop-Air-Pro-15-6-Inch-GTX-1050-Max-Q-Notebook-Intel-Core-i7.jpg'
+    image: ['https://ae01.alicdn.com/kf/Heec6739d2dd647b1bf3c40cd853bc50bv/Xiaomi-Mi-Laptop-Air-Pro-15-6-Inch-GTX-1050-Max-Q-Notebook-Intel-Core-i7.jpg', 'https://ae01.alicdn.com/kf/HTB11lxfbuL2gK0jSZFmq6A7iXXaq/Xiaomi-Mi-Laptop-Air-Pro-15-6-Inch-GTX-1050-Max-Q-Notebook-Intel-Core-i7.jpg'],
+    main: 'https://ae01.alicdn.com/kf/Heec6739d2dd647b1bf3c40cd853bc50bv/Xiaomi-Mi-Laptop-Air-Pro-15-6-Inch-GTX-1050-Max-Q-Notebook-Intel-Core-i7.jpg'
   },
   {
     name: 'HUAWEI MateBook E',
@@ -21,7 +23,8 @@ export const products = [
     rating: 4.9,
     description: 'Best HUAWEI Laptop MateBook E New 4G LTE 12 Inch 2-in-1 Notebook PC Qualcomm 850 CPU 13.0 MP Camera With M-pen +Mate Dock',
     link: 'https://www.aliexpress.com/item/33011857740.html?spm=a2g0o.productlist.0.0.1a2919057cpflI&algo_pvid=c51ab42f-7bf9-4fcd-8de5-48bdf13502c3&algo_expid=c51ab42f-7bf9-4fcd-8de5-48bdf13502c3-0&btsid=bf4f53e6-867d-4e0c-b481-ed66657443a9&ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53',
-    image: 'https://ae01.alicdn.com/kf/HTB1FIbyU7voK1RjSZFwq6AiCFXaX/Best-HUAWEI-Laptop-MateBook-E-New-4G-LTE-12-Inch-2-in-1-Notebook-PC-Qualcomm.jpg'
+    image: ['https://ae01.alicdn.com/kf/HTB1FIbyU7voK1RjSZFwq6AiCFXaX/Best-HUAWEI-Laptop-MateBook-E-New-4G-LTE-12-Inch-2-in-1-Notebook-PC-Qualcomm.jpg'],
+    main: 'https://ae01.alicdn.com/kf/HTB1FIbyU7voK1RjSZFwq6AiCFXaX/Best-HUAWEI-Laptop-MateBook-E-New-4G-LTE-12-Inch-2-in-1-Notebook-PC-Qualcomm.jpg'
   },
   {
     name: 'LENOVO IdeaPad',
@@ -29,7 +32,8 @@ export const products = [
     rating: 3.8,
     description: 'Lenovo 2-in-1 Laptop 10.1Inch IdeaPad MIIX 320 Touch Tablet+Keyboard Laptop with Intel Atom X5-Z8350 Processor 1.9GHz Windows',
     link: 'https://www.aliexpress.com/item/4000663131036.html?spm=a2g0o.productlist.0.0.1a2919057cpflI&algo_pvid=9b63a100-0843-44c0-b256-9ccfc6d94e69&algo_expid=9b63a100-0843-44c0-b256-9ccfc6d94e69-0&btsid=a55143d0-d604-4c3c-82e2-72b761958802&ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53',
-    image: 'https://ae01.alicdn.com/kf/Hb4fce176517f47cfb10fdbdee9e538a1l/Lenovo-2-in-1-Laptop-10-1Inch-IdeaPad-MIIX-320-Touch-Tablet-Keyboard-Laptop-with-Intel.jpg'
+    image: ['https://ae01.alicdn.com/kf/Hb4fce176517f47cfb10fdbdee9e538a1l/Lenovo-2-in-1-Laptop-10-1Inch-IdeaPad-MIIX-320-Touch-Tablet-Keyboard-Laptop-with-Intel.jpg'],
+    main: 'https://ae01.alicdn.com/kf/Hb4fce176517f47cfb10fdbdee9e538a1l/Lenovo-2-in-1-Laptop-10-1Inch-IdeaPad-MIIX-320-Touch-Tablet-Keyboard-Laptop-with-Intel.jpg'
   },
   {
     name: 'HP 14S Laptop 14',

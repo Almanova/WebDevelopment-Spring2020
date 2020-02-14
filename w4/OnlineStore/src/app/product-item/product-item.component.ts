@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProductItemComponent implements OnInit {
   @Input() product;
-  slideIndex = 1;
 
   constructor() { }
 
@@ -21,5 +20,9 @@ export class ProductItemComponent implements OnInit {
 
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
+  }
+
+  switch(img) {
+    this.product.main = img;
   }
 }

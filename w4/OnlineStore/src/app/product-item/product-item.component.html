@@ -1,5 +1,12 @@
 <div class="container">
-    <img [src]="product.image" width="400">
+    <div class="gallery">
+        <div class="main">
+            <img [src]="product.main">
+        </div>
+        <div class="preview" *ngFor="let img of product.image">
+            <img class = "preview-image" [src] = "img" (mouseenter)="switch(img)">
+        </div>
+    </div>
     <div class="description">
         <h3>
             <a [title]="product.name" [href]="product.link" target="_blank">
