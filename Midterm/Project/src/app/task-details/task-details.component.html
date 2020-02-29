@@ -1,0 +1,22 @@
+<div *ngIf="task">
+
+    <h2>{{task.title}} Details</h2>
+    <div><span>id: </span>{{task.id}}</div><br>
+    <div>
+        <label>title: {{task.title}}<br>
+            <input [(ngModel)]="task.title" placeholder="new title">
+        </label>
+    </div><br>
+    <div>
+        <label>description: {{task.description}}<br>
+            <input [(ngModel)]="task.description" placeholder="new description">
+        </label>
+    </div><br>
+    <div>Task status: {{task.status}} </div>
+    <select [(ngModel)]="task.status">
+        <option>new</option>
+        <option>in_progress</option>
+        <option>done</option>
+    </select>
+    <button (click)="save()">Save and Go Back</button>
+</div>

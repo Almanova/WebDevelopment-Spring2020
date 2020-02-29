@@ -1,0 +1,9 @@
+<h1>Almanova Madina, 18BD133333</h1>
+<h2>All the Tasks</h2>
+<ul class="tasks">
+  <li *ngFor="let task of tasks">
+    <a routerLink="/tasks/{{task.id}}">
+      <span class="badge">{{task.id}}</span> {{task.title}}
+    </a>
+  </li>
+</ul>

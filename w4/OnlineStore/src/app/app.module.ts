@@ -8,13 +8,21 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { CategoryComponent } from './category/category.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', redirectTo: 'categories', pathMatch: 'full' },
+      { path: 'categories', component: ProductListComponent },
+      { path: 'products', component: CategoryComponent },
+      { path: 'categories/:categoryId/products', component: CategoryComponent},
+      { path: 'categories/:categoryId', redirectTo: 'categories/:categoryId/products', pathMatch: 'full'},
+      { path: 'categories/categoryId/products/:productId', component: ProductDetailsComponent},
+      { path: 'categories/:categoryId/products/:productId', component: ProductDetailsComponent }
     ])
   ],
   declarations: [
@@ -22,7 +30,9 @@ import { ProductItemComponent } from './product-item/product-item.component';
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    CategoryComponent,
+    ProductDetailsComponent
   ],
   bootstrap: [ AppComponent ]
 })

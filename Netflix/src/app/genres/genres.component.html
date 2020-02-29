@@ -1,0 +1,8 @@
+<h2>Genres</h2>
+<ul class="genres">
+  <li *ngFor="let genre of genres">
+    <a routerLink="/{{genre.id}}/movies">
+      <span class="badge">{{genre.id}}</span> {{genre.name}}
+    </a>
+  </li>
+</ul>
